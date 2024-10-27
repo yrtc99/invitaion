@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.great-vibes-regular {
+  font-family: var(--font-great-vibes);
+}
+
+.montserrat-regular {
+  font-family: var(--font-montserrat);
+}
+
+.epilogue-regular {
+  font-family: var(--font-epilogue);
+  font-weight: 400;
+}
+
+.noto-serif-tc-regular {
+  font-family: var(--font-noto-serif-tc);
+}
+
+.bodoni-moda-regular {
+  font-family: var(--font-bodoni-moda);
+}
