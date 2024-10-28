@@ -6,9 +6,15 @@ export default function ImageGallery() {
   const images = [
     '/gallery/slide1.jpg',
     '/gallery/slide2.jpg',
+    '/gallery/slide102.jpeg',
     '/gallery/slide3.jpg',
+    '/gallery/slide101.jpeg',
     '/gallery/slide4.jpg',
     '/gallery/slide5.jpg',
+    '/gallery/slide103.jpeg',
+    
+    
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -76,6 +82,7 @@ export default function ImageGallery() {
           ></div>
         ))}
       </div>
+      
       <Image src="/final names.png" alt="Eason & Cathy" width={350} height={120} className=" my-4" />
 
     </section>
