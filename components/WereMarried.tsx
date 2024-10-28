@@ -1,8 +1,19 @@
 import Image from 'next/image';
+import React from 'react';
 
-export default function WereMarried() {
+const WereMarried: React.FC = () => {
   return (
     <section className="flex flex-col items-center justify-between  noto-serif-tc-regular">
+      <h1 className=' text-3xl text-center bodoni-moda-regular mt-28 mb-4' style={{ color: '#9F3D39' }}>
+          - We're Married -
+        </h1>
+        <p className=' text-center noto-serif-tc-regular mt-8 mb-10'>
+          在這個特別的日子
+          <br />
+          誠摯地邀請
+          <br />
+          我們人生中重要的家人與朋友來參與
+        </p>
       <div className="flex flex-row w-full justify-center px-6">
         <div className="w-1/2 text-center space-y-4">
           <Image
@@ -49,4 +60,6 @@ export default function WereMarried() {
       </div>
     </section >
   );
-}
+};
+
+export default WereMarried

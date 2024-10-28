@@ -88,3 +88,9 @@ body {
   z-index: 1000; /* 确保遮罩在最上层 */
 }
 
+.image-gradient {
+  mask-image: linear-gradient(to top, white 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to top, white 90%, transparent 100%);
+}
+
+

@@ -76,7 +76,7 @@ export default function ImageGallery() {
           ></div>
         ))}
       </div>
-      <Image src="/sign.png" alt="Eason & Cathy" width={350} height={120} className=" my-4" />
+      <Image src="/final names.png" alt="Eason & Cathy" width={350} height={120} className=" my-4" />
 
     </section>
   );
