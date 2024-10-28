@@ -76,7 +76,7 @@ export default function ImageGallery() {
         {images.map((_, index) => (
           <div
             key={index}
-            className={`w-3 h-3 rounded-full ${
+            className={`w-1 h-1 rounded-full ${
               index === currentIndex ? 'bg-gray-800' : 'bg-gray-400'
             }`}
           ></div>
