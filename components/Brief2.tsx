@@ -9,7 +9,7 @@ export default function Brief2() {
       </h1> */}
 
       {/* 左邊的文字區塊，設置為 1/3 寬度 */}
-      <p className="text-sm text-center tracking-widest noto-serif-tc-regular mt-0 basis-1/3">
+      <p className="text-lg text-center tracking-widest noto-serif-tc-regular mt-0 basis-1/3 " >
         餘生可貴<br />
         /<br />
         有你相陪<br />
@@ -23,8 +23,8 @@ export default function Brief2() {
       {/* <p className="text-lg text-center rotate-90 absolute ">Love story</p> */}
 
       {/* 右邊的圖片區塊，設置為 2/3 寬度 */}
-      <div className='basis-2/3 flex justify-end'>
-        <Image src="/brief201.jpg" alt="簡介2照片" width={250} height={375} className="rounded-lg" />
+      <div className='basis-2/3 flex justify-end '>
+        <Image src="/aboutus.jpg" alt="簡介2照片" width={300} height={375} className="" />
       </div>
     </section>
   );

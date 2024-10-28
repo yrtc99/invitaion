@@ -10,6 +10,8 @@ import Location from '@/components/Location'
 import ImageGallery from '@/components/ImageGallery'
 import PlayButton from '@/components/PlayButton'
 
+import Brief2add from '@/components/Brief2add'
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
@@ -32,8 +34,20 @@ export default function Home() {
           <br />
           你專門為我們而來"
         </p>
+        <h1 className=' text-2xl text-center bodoni-moda-regular mt-28 mb-4 ' style={{ color: '#9F3D39' }}>
+          - ABOUT US -
+        </h1>
+        <p className=' text-sm text-center noto-serif-tc-regular mb-6'>
+          "關於我們"
+        </p>
+        <Brief2add />
+        <p className=' text-lg text-center noto-serif-tc-regular mt-24 mb-10'>
+          "人生有三萬多天，很開心這一天
+          <br />
+          你專門為我們而來"
+        </p>
         <Brief3 />
-        <p className=' text-lg text-center noto-serif-tc-regular mt-24 mb-24 '>
+        <p className=' text-lg text-center noto-serif-tc-regular mt-20 mb-24 '>
           我們清晨起來往葡萄園去<br />
           看看葡萄發芽開花沒有<br />
           石榴放蕊沒有<br />

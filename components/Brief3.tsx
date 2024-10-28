@@ -16,6 +16,7 @@ export default function Brief3() {
                     className="shadow-lg"
                 />
             </div>
+            <Image src="/line2.png" alt="for you" width={500} height={300} className='absolute top-96' />
 
 
 

@@ -3,7 +3,11 @@ import Image from 'next/image'
 export default function Location() {
   return (
     <section className=" flex flex-col items-center justify-center p-4">
-      
+      <p className="text-lg text-center max-w-2xl noto-serif-tc-regular my-2 tracking-widest font-bold">
+        2025年01月15日<br/>
+        12:00入場 | 12:30開始<br/>
+        華麗風采宴會館
+      </p>
       <div className="flex flex-wrap justify-center gap-2 mb-8">
       <Image src="/res0115.jpeg" alt="婚禮地圖" width={350} height={200} className=" shadow-lg" />
       <Image src="/res0115_2.jpeg" alt="婚禮交通" width={350} height={200} className=" shadow-lg " />
