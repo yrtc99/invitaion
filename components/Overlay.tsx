@@ -17,15 +17,8 @@ const Overlay: React.FC<OverlayProps> = ({ onClick }) => {
 
     return (
         <div
-            className={`overlay fixed inset-0 bg-white text-black flex items-center justify-center transition-opacity duration-500 ease-out ${isVisible ? 'opacity-100' : 'opacity-0'
-                }`}
+            className={`overlay transition-opacity duration-500 ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}
             onClick={handleClick}
-            style={{
-                backgroundImage: 'url(/oVERLAY.png)', // 確保背景圖片路徑正確
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                zIndex: 1000, // 確保遮罩在最上層
-            }}
         >
             {/* 忽明忽暗的箭頭 */}
             <div className="absolute bottom-40 right-10 noto-serif-tc-regular tracking-wide text-black animate-pulse z-50 border border-black rounded-full px-4 py-2">
