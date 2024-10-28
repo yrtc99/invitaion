@@ -17,7 +17,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-  
+
 }
 
 .great-vibes-regular {
@@ -40,3 +40,51 @@ body {
 .bodoni-moda-regular {
   font-family: var(--font-bodoni-moda);
 }
+
+.play-button {
+  background-color: transparent;
+  border: 1px solid #B89C9A;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  margin-right: 10px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  z-index: 10;
+}
+
+.icon {
+  font-size: 24px;
+  color: #B89C9A;
+  transition: transform 0.5s; /* 添加过渡效果 */
+}
+
+.rotate {
+  animation: spin 1s linear infinite; /* 持续旋转动画 */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+  z-index: 1000; /* 确保遮罩在最上层 */
+}
+

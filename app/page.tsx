@@ -8,6 +8,7 @@ import WereMarried from '@/components/WereMarried'
 import AboutWedding from '@/components/AboutWedding'
 import Location from '@/components/Location'
 import ImageGallery from '@/components/ImageGallery'
+import PlayButton from '@/components/PlayButton'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
 
       <main className="w-full">
+        <PlayButton/>
         <Intro />
         <Brief />
         <h1 className=' text-2xl text-center bodoni-moda-regular mt-28 mb-8 ' style={{ color: '#9F3D39' }}>
