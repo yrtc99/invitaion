@@ -6,7 +6,7 @@ export default function Location() {
       <a href="https://docs.google.com/forms/d/1erX-Us30adzdloo4FjeGCTv9k_IPRoOsm0fc3FsnWE8/edit?usp=drivesdk"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-customRed noto-serif-tc-regular text-white font-bold mt-10 py-2 px-4 rounded animate-pulsate">
+        className="bg-customRed noto-serif-tc-regular text-white font-bold mt-10 py-6 px-8 tracking-widest  rounded-full animate-pulsate">
         填寫報名表單
       </a>
       
@@ -16,7 +16,7 @@ export default function Location() {
       <p className=' text-sm text-center noto-serif-tc-regular m-6'>
         "場館地點"
       </p>
-      <div className="w-8 h-8 mb-4 mr-4">
+      <div className="w-8 h-8 mr-4">
       <svg 
           fill="#9F3D39" // 使用與標題相同的顏色
           width="50" 
@@ -32,7 +32,13 @@ export default function Location() {
           </g>
         </svg>
       </div>
-      <a href="hhttps://maps.app.goo.gl/4FQJoBRkKxJjqhqh7"
+      
+      <p className="text-lg text-center max-w-2xl noto-serif-tc-regular mt-10 tracking-widest font-bold">
+        03-5359898<br />
+        華麗風采宴會館 | 維多利亞廳<br />
+        新竹市北區中正路245號7F
+      </p>
+      <a href="https://maps.app.goo.gl/sCEdirRB55m1KRuX9"
         target="_blank"
         rel="noopener noreferrer"
         className="noto-serif-tc-regular  mt-4 py-2 px-4 ">
@@ -46,11 +52,7 @@ export default function Location() {
         <Image src="/res0115.jpeg" alt="婚禮地圖" width={350} height={200} className="shadow-lg" />
       </a>
       <Image src="/res0115_2.jpeg" alt="婚禮交通" width={350} height={200} className=" shadow-lg mt-4" />
-      <p className="text-lg text-center max-w-2xl noto-serif-tc-regular mt-10 tracking-widest font-bold">
-        03-5359898<br />
-        華麗風采宴會館 | 維多利亞廳<br />
-        新竹市北區中正路245號7F
-      </p>
+      
       
       
 
