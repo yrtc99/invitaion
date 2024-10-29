@@ -6,7 +6,7 @@ export default function ImageGallery() {
   const images = [
     '/gallery/slide1.jpg',
     '/gallery/slide2.jpg',
-    '/gallery/slide102.jpeg',
+    '/land.jpg',
     '/gallery/slide101.jpeg',
     '/gallery/slide4.jpg',
     '/gallery/slide5.jpg',

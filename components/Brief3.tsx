@@ -16,7 +16,7 @@ export default function Brief3() {
                     className="shadow-lg"
                 />
                 <Image
-                    src="/land.jpg"
+                    src="/gallery/slide102.jpeg"
                     alt="簡介照片"
                     layout="responsive"
                     width={500}

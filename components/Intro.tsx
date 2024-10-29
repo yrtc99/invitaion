@@ -12,7 +12,7 @@ export default function Intro() {
 
             <h1 className="text-5xl mb-4 great-vibes-regular tracking-widest  ">Eason & Cathy</h1>
 
-            <h3 className="text-2xl montserrat-regular tracking-widest border-t border-b w-full border-black py-4">cordially invite you</h3>
+            <h3 className="text-2xl bodoni-moda-regular tracking-widest border-t border-b w-full border-black py-4">- cordially invite you -</h3>
 
 
 
