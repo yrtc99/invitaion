@@ -26,6 +26,11 @@ const config: Config = {
           '50%': { transform: 'scale(1.1)', opacity: '0.8' },
         },
       },
+      fontFamily: {
+        fontone: ['Font1', 'sans-serif'],
+        fonttwo: ['Font2', 'serif'],
+      
+      },
     },
   },
   plugins: [],

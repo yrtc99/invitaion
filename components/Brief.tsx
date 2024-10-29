@@ -21,14 +21,14 @@ export default function Brief() {
                     className="shadow-lg"
                 />
             </div>
-            <Image src="/for you.png" alt="for you" width={400} height={300} className='absolute left-12 bottom-20' />
-            <p className="w-full text-lg text-center max-w-2xl tracking-widest pt-16 mt-6 noto-serif-tc-regular">
+            <Image src="/for you.png" alt="for you" width={400} height={300} className='absolute mt-40 left-12 ' />
+            {/* <p className="w-full text-lg text-center max-w-2xl tracking-widest pt-16 mt-6 noto-serif-tc-regular">
                 謝謝主耶穌的預備<br />
                 謝謝您們的關心牧養及代禱<br />
                 當你們收到這分邀請函時<br />
                 我們即將在主裡成家!
-            </p>
-
+            </p> */}
+            <Image src="/thanksppl.png" alt="Eason & Cathy" width={350} height={200} className="mt-24 mb-8" />
 
 
         </section>
