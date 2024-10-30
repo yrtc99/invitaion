@@ -46,8 +46,8 @@ const bodoniModa = Bodoni_Moda({
 });
 
 export const metadata: Metadata = {
-  title: 'Eason & Cathy 的婚禮邀請',
-  description: 'Eason & Cathy 的婚禮邀請網站',
+  title: '易勝&智涵 婚禮邀請',
+  description: '易勝&智涵 婚禮邀請',
 };
 
 export default function RootLayout({

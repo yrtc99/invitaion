@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       <Head>
-        <title>Eason & Cathy 的婚禮邀請</title>
-        <meta name="description" content="Eason & Cathy 的婚禮邀請網站" />
+        <title>易勝&智涵 婚禮邀請</title>
+        <meta name="description" content="易勝&智涵 婚禮邀請" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
