@@ -38,7 +38,7 @@ const WereMarried: React.FC = () => {
       animate={isSectionInView ? "visible" : "hidden"}
     >
       <motion.h1
-        className='text-3xl text-center bodoni-moda-regular mt-20 mb-4'
+        className='text-3xl text-center font-bold bodoni-moda-regular mt-20 mb-4'
         style={{ color: '#9F3D39' }}
         variants={itemVariants}
       >

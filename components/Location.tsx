@@ -10,7 +10,7 @@ export default function Location() {
         填寫報名表單
       </a>
       
-      <h1 className=' text-3xl text-center bodoni-moda-regular mt-28 mb-4' style={{ color: '#9F3D39' }}>
+      <h1 className=' text-3xl text-center font-bold bodoni-moda-regular mt-28 mb-4' style={{ color: '#9F3D39' }}>
         - Location -
       </h1>
       <p className=' text-sm text-center noto-serif-tc-regular m-6'>
@@ -41,7 +41,8 @@ export default function Location() {
       <a href="https://maps.app.goo.gl/sCEdirRB55m1KRuX9"
         target="_blank"
         rel="noopener noreferrer"
-        className="noto-serif-tc-regular  mt-4 py-2 px-4 ">
+        className="noto-serif-tc-regular text-sm mt-4 py-1 px-6 text-white "
+        style={{ backgroundColor: '#AC6F6D' }}>
         點擊查看地圖
       </a>
       <a

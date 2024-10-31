@@ -70,7 +70,7 @@ export default function ImageGallery() {
 
       <div className=' text-center noto-serif-tc-regular mt-16 mb-10'>
         
-        <Image src="/godlove2.png" alt="Eason & Cathy" width={200} height={100} className="m-20" />
+        <Image src="/godlove2_pink.png" alt="Eason & Cathy" width={200} height={100} className="m-20" />
       
       </div>
       <div className="relative w-full max-w-3xl h-[400px] my-12"

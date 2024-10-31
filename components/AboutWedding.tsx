@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function AboutWedding() {
   return (
     <section className="flex flex-col items-center justify-center p-4">
-      <h1 className=' text-3xl text-center bodoni-moda-regular mt-28 mb-4' style={{ color: '#9F3D39' }}>
+      <h1 className=' text-3xl text-center font-bold bodoni-moda-regular mt-28 mb-4' style={{ color: '#9F3D39' }}>
         - About Wedding -
       </h1>
       <p className=' text-sm text-center noto-serif-tc-regular m-6'>

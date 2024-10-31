@@ -17,7 +17,7 @@ const Brief2addtest: React.FC = () => {
     <div className='h-screen overflow-hidden' ref={container}>
 
       <motion.div style={{ y }} className='relative h-full'>
-        <h1 className=' text-3xl text-center bodoni-moda-regular mt-28 mb-4 ' style={{ color: '#9F3D39' }}>
+        <h1 className=' text-3xl text-center font-bold bodoni-moda-regular mt-28 mb-4 ' style={{ color: '#9F3D39' }}>
           - About us -
         </h1>
         <p className=' text-lg text-center noto-serif-tc-regular mt-8 mb-10'>
