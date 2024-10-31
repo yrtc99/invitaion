@@ -33,7 +33,7 @@ export default function Location() {
         </svg>
       </div>
       
-      <p className="text-lg text-center max-w-2xl noto-serif-tc-regular mt-10 tracking-widest font-bold">
+      <p className="text-lg text-center max-w-2xl noto-serif-tc-regular mb-10 mt-16 tracking-widest font-bold">
         03-5359898<br />
         華麗風采宴會館 | 維多利亞廳<br />
         新竹市北區中正路245號7F
