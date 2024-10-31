@@ -46,8 +46,8 @@ const bodoniModa = Bodoni_Moda({
 });
 
 export const metadata: Metadata = {
-  title: '易勝&智涵 婚禮邀請',
-  description: '易勝&智涵 婚禮邀請',
+  title: '易勝&智涵 新竹婚禮邀請',
+  description: '易勝&智涵 新竹婚禮邀請',
 };
 
 export default function RootLayout({
